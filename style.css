@@ -1,0 +1,99 @@
+body {
+  background: linen;
+}
+
+nav {
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav a {
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: orange;
+  background: black;
+}
+
+#profile-photo {
+  float: right;
+  padding: 10px;
+  background-color: lightgray;
+  width: 100px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin: 10px;
+}
+
+#nametag {
+  float: right;
+  font-size: 1.5em;
+}
+
+#name {
+  float: right;
+  padding: 10px 5px 5px 10px;
+  background-color: lightgray;
+}
+
+#studentid {
+  float: right;
+  font-size: 0.65em;
+  padding: 5px 5px 10px 10px;
+  background-color: lightgray;
+}
+
+#container {
+  margin-top: 100px;
+  width: 740px;
+}
+
+section {
+  position: relative;
+  float: left;
+  width: 500px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+aside {
+  float: right;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.emphasis {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.headline {
+  font-size: 2em;
+}
+
+.clear-right {
+  clear: right;
+}
+
+table td {
+  font-size: 0.5em;
+}
